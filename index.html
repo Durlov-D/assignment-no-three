@@ -15,9 +15,9 @@
 
 <body>
 
-    <nav class="flex justify-between w-[90%] mx-auto">
+    <nav class="flex justify-between w-[90%] mx-auto mt-16 max-w-screen-2xl">
         <div class="flex gap-2 ">
-            <i class="fa-solid fa-arrow-right border-green-500 mt-1 -rotate-45"></i>
+            <i class="fa-solid fa-arrow-right -rotate-45 mx-2 bg-[#a3f540] border rounded-full p-2"></i>
             <h2 class="text-2xl font-extrabold">
                 Rinterio
             </h2>
@@ -33,10 +33,10 @@
         </div>
 
         <div>
-            <i class="fa-solid fa-magnifying-glass border-white mx-2"></i>
+            <i class="fa-solid border rounded-full bg-gray-400 p-2 text-black fa-magnifying-glass border-white mx-2"></i>
             <i class="fa-solid fa-cart-shopping mx-4"></i>
             <button class="border bg-[#ABEF5F] rounded-3xl p-3">
-                Book consult <i class="fa-solid fa-arrow-right -rotate-45 mx-2"></i>
+                Book consult <i class="fa-solid fa-arrow-right -rotate-45 bg-[#000000] text-white border rounded-full p-2"></i>
             </button>
         </div>
     </nav>
@@ -52,14 +52,14 @@
             The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered
             wood, sleek metal <br> accents, and large windows that flood the space with natural light.
         </p>
-        <button class="border bg-[#ABEF5F] rounded-3xl p-3 my-5">
-            View Details <i class="fa-solid fa-arrow-right -rotate-45 mx-2"></i>
+        <button class="border bg-[#defcb9] rounded-3xl p-3 my-5">
+            View Details <i class="fa-solid fa-arrow-right -rotate-45 mx-2 bg-[#a3f540] border rounded-full p-2"></i>
         </button>
     </div>
 
     <main class="bg-gray-100 mt-10"> 
         <!-- Building design parent div -->
-        <div class="w-[90%] mx-auto flex justify-between mb-16">
+        <div class="w-[90%] max-w-screen-2xl mx-auto flex justify-between mb-16">
 
 
             <div>
@@ -127,7 +127,7 @@
 
         <!-- card starts -->
          
-         <div class="flex justify-evenly mb-28 pb-16 mt-8 "> 
+         <div class="flex justify-evenly mb-28 pb-16 mt-8 max-w-screen-2xl mx-auto "> 
 
             <!-- card number one -->
             <div class="bg-pink-200 p-4 rounded-2xl">
@@ -184,14 +184,91 @@
                     The barn house captivates <br> with its blend of rustic <br> charm and modern.
                 </p>
              </div>
-
-
-
-
          </div>
+                <!-- Latest Portfolio part starts -->
+
+         <div class="text-center  ">
+            <button class="rounded-3xl border-4 px-3 bg-[#defcb9] py-1 ">
+                <i class="fa-solid fa-arrow-right mx-2 "></i>Explore our latest works
+            </button>
+            <h1 class="text-4xl font-extrabold my-4">
+                Our latest Portfolio
+            </h1>
+            <p class="text-[#494949]">
+                The barn house captivates with its blend of rustic charm and modern sophistication <br> featuring weathered wood, sleek metal accents.
+            </p>
+         </div>
+
+         <!-- latest portfolio image container starts -->
+
+         <div class="mt-16 flex w-[90%] mx-auto pr-36 pl-32 justify-between mb-10 gap-10 max-w-screen-2xl">
+            <div class="flex border rounded-2xl p-5 bg-white">
+                <div>
+                    <img src="assets/img1.png" alt="">
+                </div>
+                <div class="ml-8">
+                    <h1 class="text-xl font-extrabold text-[#494949] my-4">
+                        Commercial
+                    </h1>
+                    <p class="text-[#494949]">
+                        The barn house captivates with its blend of rustic charm and modern. <br>	 The barn house captivates with its blend of rustic charm and modern .
+                    </p>
+                    <button class=" rounded-3xl p-3 my-5">
+                        View Details <i class="fa-solid fa-arrow-right -rotate-45 mx-2 bg-[#a3f540] border rounded-full p-2"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="border  bg-white p-5">
+                <img src="assets/img2.png" alt="">
+            </div>
+         </div>
+
+         <!-- commercial second parts -->
+
+         <div class="mt- flex w-[90%] mx-auto pr-36 pl-32 justify-between mb-5 gap-10 max-w-screen-2xl"> 
+            <div class="border rounded-2xl bg-white p-5">
+                <img src="assets/img3.png" alt="">
+            </div>
+            <!-- middle card -->
+            <div class="flex border rounded-2xl p-5 bg-white">
+                <div>
+                    <img src="assets/img4.png" alt="">
+                </div>
+                <div class="ml-8">
+                    <h1 class="text-xl font-extrabold text-[#494949] my-2">
+                        Commercial
+                    </h1>
+                    <p class="text-[#494949]">
+                        The barn house captivates with its blend of rustic charm and modern. <br>	 The barn house captivates with its blend of rustic charm and modern .
+                    </p>
+                    <button class=" rounded-3xl p-3 my-5">
+                        View Details <i class="fa-solid fa-arrow-right -rotate-45 mx-2 bg-[#a3f540] border rounded-full p-2"></i>
+                    </button>
+                </div>
+            </div>
+           <div class="border rounded-2xl rounded-2xl bg-white p-4">
+            <img src="assets/img5.png" alt="">
+           </div>
+         </div>
+
+         <!-- Discussing next project starts -->
+        
 
     </main>
 
+    <div class="w-[90%] mt-5 ">
+        <img class="w-[100%] p-4 h-fit mx-auto absolute" src="assets/bg.jpg" alt="">
+        <div class="relative p-9 w-[90%] mx-auto items-center text-center">
+            
+            <button class=" rounded-3xl p-3 my-1 my-9 bg-[#deeeca] border rounded-full p-2">
+               <i class="fa-solid fa-arrow-right mx-2 "></i> Let's Connect
+            </button>
+
+            <h1 class="text-4xl font-bold">
+                Let’s Discuss Next Project
+            </h1>
+        </div>
+    </div>
    
 
 </body>
